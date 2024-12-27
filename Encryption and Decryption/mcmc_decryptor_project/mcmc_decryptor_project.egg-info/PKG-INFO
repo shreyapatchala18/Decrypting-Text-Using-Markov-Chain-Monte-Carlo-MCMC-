@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mcmc_decryptor_project
+Version: 0.1.0
+Summary: A Python library for decrypting substitution ciphers using Metropolis sampling.
+Author-email: Shreya Patchala <spatchal@andrew.cmu.edu>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.4.0
+
+# mcmc-decryptor
+
+A Python library for decrypting substitution ciphers using Metropolis sampling.
+
+## Features
+
+- Preprocess text
+- Encrypt and decrypt substitution ciphers
+- Optimize decryption using Metropolis sampling
+
+## Installation
+
+```bash
+pip install mcmc_decryptor

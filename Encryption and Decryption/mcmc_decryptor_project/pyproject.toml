@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcmc_decryptor_project"
+version = "0.1.0"
+description = "A Python library for decrypting substitution ciphers using Metropolis sampling."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Shreya Patchala", email = "spatchal@andrew.cmu.edu"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "matplotlib>=3.4.0"
+]
+requires-python = ">=3.7"
