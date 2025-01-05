@@ -54,18 +54,15 @@ Result: Plots correctness vs. number of iterations.
 
 mcmc_decryptor_project/
 ├── mcmc_decryptor/             # Core library
-│   ├── __init__.py             # Exports main functionalities
+│   ├── __init__.py             
 │   ├── decryption.py           # Implementation of the decryption algorithm
-│
-├── scripts/
-│   ├── mcmc_decryptor_experiments.py  # Experimentation script
 │
 ├── tests/                      # Unit tests
 │   ├── test_decryption.py
 │
 ├── dist/                       # Built distribution files (after build)
-├── LICENSE                     # License information
-├── README.md                   # Project documentation
+├── LICENSE                     
+├── README.md                   
 ├── pyproject.toml              # Package metadata
 
 
