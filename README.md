@@ -53,21 +53,17 @@ Result: Plots correctness vs. number of iterations.
 ### Project Structure
 
 mcmc_decryptor_project/
-│
-├── mcmc_decryptor/             # Core library
-│   ├── __init__.py             # Exports main functionalities
-│   ├── decryption.py           # Implementation of the decryption algorithm
-│
-├── scripts/
-│   ├── mcmc_decryptor_experiments.py  # Experimentation script
-│
-├── tests/                      # Unit tests
-│   ├── test_decryption.py
-│
-├── LICENSE                     # License information
-├── README.md                   # Project documentation
-├── pyproject.toml              # Package metadata
-├── dist/                       # Built distribution files (after build)
+  mcmc_decryptor/: Core library
+    __init__.py: Exports main functionalities
+    decryption.py: Implementation of the decryption algorithm
+  scripts/
+    mcmc_decryptor_experiments.py: Experimentation script
+tests/
+  test_decryption.py: Unit tests for the library
+dist/: Built distribution files (after build)
+LICENSE: License information
+README.md: Project documentation
+pyproject.toml: Package metadata
 
 
 
